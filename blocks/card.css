@@ -4,8 +4,15 @@
 
 .card__title {
   font-size: 20px;
-  weight: 500;
+  font-weight: 500;
   line-height: 24px;
+  padding-top: 10px;
+  margin: 0;
+  color: #212121;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 400px;
 }
 
 .card__image {
@@ -26,13 +33,14 @@
   background-image: url(../images/Union.svg);
   height: 20px;
   width: 23px;
+  margin-top: 10px;
   border: none;
   opacity: 40%;
   background-color: transparent;
 }
 
 .card__like-button:hover {
-  opacity: 70%;
+  opacity: 100%;
 }
 
 @media screen and (max-width: 627px) {
@@ -43,7 +51,6 @@
 
   .card__title {
     font-size: 16px;
-    weight: 500;
     line-height: 16px;
   }
 }
