@@ -12,7 +12,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  max-width: 400px;
+  max-width: 353px;
 }
 
 .card__image {
@@ -37,6 +37,7 @@
   border: none;
   opacity: 40%;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .card__like-button:hover {

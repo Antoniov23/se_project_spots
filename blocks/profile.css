@@ -66,6 +66,7 @@
 
 .profile__edit-button:hover {
   opacity: 100%;
+  cursor: pointer;
 }
 
 .profile__add-button {
@@ -83,6 +84,7 @@
   font-size: 16px;
   gap: 8px;
   background-color: #212121;
+  cursor: pointer;
 }
 
 .profile__add-button:hover {
