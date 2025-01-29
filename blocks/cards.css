@@ -5,6 +5,7 @@
 
 .cards__list {
   list-style: none;
+  justify-content: center;
   padding: 0;
   margin: 0;
   display: grid;
