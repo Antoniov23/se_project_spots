@@ -40,6 +40,11 @@
   cursor: pointer;
 }
 
+.card__like-button_is-active {
+  background-image: url(../images/Union-filled.svg);
+  opacity: 100%;
+}
+
 .card__like-button:hover {
   opacity: 100%;
 }
