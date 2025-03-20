@@ -30,7 +30,7 @@
             </button>
           </div>
           <button type="button" class="profile__add-button">
-            <img src="./images/plus.svg" alt="Plus icon" /> New Post
+            <img src="./images/Plus.svg" alt="Plus icon" /> New Post
           </button>
         </section>
         <section class="cards page__section">
@@ -53,18 +53,7 @@
       <div class="modal" id="edit-profile-modal">
         <div class="modal__container">
           <button type="button" class="modal__close-btn">
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M16 1.6L14.4 0L8 6.4L1.6 0L0 1.6L6.4 8L0 14.4L1.6 16L8 9.6L14.4 16L16 14.4L9.6 8L16 1.6Z"
-                fill="#212121"
-              />
-            </svg>
+            <img src="./images/Close Icon.svg" alt="Close button" />
           </button>
           <h2 class="modal__title">Edit Profile</h2>
           <form name="edit-profile" class="modal__form">
@@ -75,6 +64,7 @@
                 type="text"
                 class="modal__input"
                 placeholder="Type your name"
+                required
               />
             </label>
             <label for="profile-description-input" class="modal__label">
@@ -84,6 +74,7 @@
                 type="text"
                 class="modal__input"
                 placeholder="Describe Yourself"
+                required
               />
             </label>
             <button type="submit" class="modal__button">Save</button>
