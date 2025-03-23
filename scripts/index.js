@@ -42,7 +42,7 @@ const editModalDescriptionInput = document.querySelector(
 );
 
 const cardTemplate = document.querySelector("#card-template");
-const cardslist = document.querySelector(".cards__list");
+const cardsList = document.querySelector(".cards__list");
 
 function getCardElement(data) {
   const cardElement = cardTemplate.content
@@ -66,7 +66,7 @@ function getCardElement(data) {
 
 function renderCard(cardData) {
   const cardElement = getCardElement(cardData);
-  cardslist.prepend(cardElement);
+  cardsList.prepend(cardElement);
 }
 
 function openModal(modal) {
@@ -112,5 +112,5 @@ addCardForm.addEventListener("submit", (e) => {
 
 initialCards.forEach((cardData) => {
   const cardElement = getCardElement(cardData);
-  cardslist.append(cardElement);
+  cardsList.append(cardElement);
 });
