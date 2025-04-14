@@ -37,6 +37,7 @@
           <ul class="cards__list">
             <template id="card-template">
               <li class="card">
+                <button class="card__delete-button" type="button"></button>
                 <img src="" alt="" class="card__image" />
                 <div class="card__content">
                   <h2 class="card__title"></h2>
@@ -83,28 +84,50 @@
       </div>
       <div class="modal" id="add-card-modal">
         <div class="modal__container">
-          <button type="button" class="modal__close"></button>
-          <h2 class="modal__heading">New Place</h2>
+          <button type="button" class="modal__close-btn">
+            <img src="./images/CloseIcon.svg" alt="Close button" />
+          </button>
+          <h2 class="modal__heading">New Post</h2>
           <form name="cardForm" class="modal__form">
-            <input
-              id="card-title-input"
-              type="text"
-              class="modal__input"
-              placeholder="Title"
-              required
-            />
-            <input
-              id="card-url-input"
-              type="url"
-              class="modal__input"
-              placeholder="Image URL"
-              required
-            />
+            <label for="card-url-input" class="modal__label">
+              Image link
+              <input
+                id="card-url-input"
+                type="url"
+                class="modal__input"
+                placeholder="Paste a link to the picture"
+                required
+              />
+            </label>
+            <label for="card-title-input" class="modal__label">
+              Caption
+              <input
+                id="card-title-input"
+                type="text"
+                class="modal__input"
+                placeholder="Type your caption"
+                required
+              />
+            </label>
             <button type="submit" class="modal__button">Create</button>
           </form>
         </div>
       </div>
     </div>
+
+    <div class="modal" id="preview-modal">
+      <div class="modal__container modal__container_type_preview">
+        <div class="modal__preview-content"> 
+        <button type="button" class="modal__close-btn"></button>
+        <img
+          src="https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/7-photo-by-griffin-wooldridge-from-pexels.jpg"
+          alt="a bridge"
+          class="modal__image"
+        />
+        <p class="modal__heading">Godlen Gate Bridge</p>
+      </div>
+    </div>
+
     <script defer src="./scripts/index.js"></script>
   </body>
 </html>
