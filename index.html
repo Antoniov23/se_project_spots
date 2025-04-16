@@ -41,7 +41,10 @@
                 <img src="" alt="" class="card__image" />
                 <div class="card__content">
                   <h2 class="card__title"></h2>
-                  <button type="button" class="card__like-button"></button>
+                  <button
+                    aria-label="button"
+                    class="card__like-button"
+                  ></button>
                 </div>
               </li>
             </template>
@@ -87,7 +90,7 @@
           <button type="button" class="modal__close-btn">
             <img src="./images/CloseIcon.svg" alt="Close button" />
           </button>
-          <h2 class="modal__heading">New Post</h2>
+          <h2 class="modal__title">New Post</h2>
           <form name="cardForm" class="modal__form">
             <label for="card-url-input" class="modal__label">
               Image link
@@ -117,14 +120,15 @@
 
     <div class="modal" id="preview-modal">
       <div class="modal__container modal__container_type_preview">
-        <div class="modal__preview-content"> 
-        <button type="button" class="modal__close-btn"></button>
+        <button type="button" class="modal__close-btn">
+          <img src="./images/CloseIcon.svg" alt="Close button" />
+        </button>
         <img
           src="https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/7-photo-by-griffin-wooldridge-from-pexels.jpg"
-          alt="a bridge"
+          alt=""
           class="modal__image"
         />
-        <p class="modal__heading">Godlen Gate Bridge</p>
+        <p class="modal__caption">Golden Gate Bridge</p>
       </div>
     </div>
 
