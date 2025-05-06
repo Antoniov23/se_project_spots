@@ -42,14 +42,10 @@
   cursor: pointer;
 }
 
-.card__like-button_is-active {
-  background-image: url(../images/Union-filled.svg);
-  opacity: 100%;
-}
-
-.card__like-button_is-active {
+.card__like-button_is_active {
   background-image: url(../images/Liked.svg);
   opacity: 100%;
+  background: repeat;
 }
 
 .card__like-button:hover {
