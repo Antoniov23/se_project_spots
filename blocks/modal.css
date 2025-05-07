@@ -106,10 +106,6 @@
   opacity: 80%;
 }
 
-.modal__container {
-  position: center;
-}
-
 .modal__container_type_preview {
   background-color: transparent;
   padding: 0;
@@ -135,7 +131,7 @@
   letter-spacing: 0%;
   text-align: left;
   margin: 0;
-  padding: 4px, 8px, 4px, 8px;
+  padding: 4px 8px 4px 8px;
   position: absolute;
   top: calc(100% + 10px);
   left: 0;
@@ -171,10 +167,6 @@
     padding: 0 10px;
   }
 
-  .modal__container {
-    padding: 5px;
-  }
-
   .modal__title {
     font-size: 23px;
     font-weight: 20px;
@@ -197,7 +189,7 @@
   .modal__caption {
     font-family: Poppins, Arial, Helvetica, sans-serif;
     font-weight: 500;
-    size: 16px;
+    font-size: 16px;
     line-height: 120%;
     letter-spacing: 0%;
   }
@@ -219,8 +211,8 @@
   }
 
   .modal__close-btn_type_preview {
-    top: -29px;
-    left: 264px;
+    top: -40px;
+    right: -8px;
     padding: 0;
   }
 
