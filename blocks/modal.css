@@ -95,7 +95,7 @@
   font-family: Poppins, Arial, Helvetica, sans-serif;
   font-weight: 500;
   size: 16px;
-  line-height: 16px;
+  line-height: 100%;
   color: #fcf5e5;
   border-radius: 8px;
 }
@@ -170,16 +170,34 @@
   }
 
   .modal__title {
-    font-size: 23px;
-    font-weight: 20px;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
     margin: 10px 0 34px;
   }
 
   .modal__input {
-    padding: 9px 12px;
+    padding: 16px 12px;
+    border: 1px solid #212121;
     border-radius: 8px;
+    gap: 10px;
+    font-size: 16px;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    letter-spacing: 0%;
     color: #212121;
-    font-size: 20px;
+    opacity: 1;
+    box-sizing: border-box;
+  }
+
+  .modal__input:not(:placeholder-shown) {
+    color: #212121;
+  }
+
+  .modal__input::placeholder {
+    opacity: 0.4;
   }
 
   .modal__image {
@@ -209,6 +227,8 @@
   }
 
   .modal__close-btn {
+    width: 40px;
+    height: 40px;
     top: 22px;
     right: 12px;
   }
@@ -220,7 +240,8 @@
   }
 
   .modal__label {
-    margin-bottom: 24px;
+    color: #212121;
+    opacity: 100%;
   }
 
   .modal__sumbit-btn {
