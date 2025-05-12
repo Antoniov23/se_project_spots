@@ -10,7 +10,7 @@
   align-items: center;
   justify-content: center;
   visibility: hidden;
-  padding: 0 20px;
+  padding: 0 10px;
   transition: visibility 0.3s, opacity 0.3s ease-in;
   opacity: 0;
 }
@@ -164,7 +164,7 @@
 
 @media screen and (max-width: 627px) {
   .modal__container {
-    padding: 22px 20px;
+    padding: 22px 12px 12px;
     width: 100%;
     max-width: 100%;
   }
@@ -176,6 +176,10 @@
     line-height: 100%;
     letter-spacing: 0%;
     margin: 10px 0 34px;
+  }
+
+  .modal__container_type_preview {
+    padding: 0;
   }
 
   .modal__input {
@@ -229,7 +233,7 @@
   .modal__close-btn {
     width: 40px;
     height: 40px;
-    top: 22px;
+    top: 12px;
     right: 12px;
   }
 
