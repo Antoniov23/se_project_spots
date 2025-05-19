@@ -4,6 +4,8 @@ A responsive web app that allows users to create, view, and delete image-based p
 
 ## 📸 Live Demo
 
+👉[Video Description of what I Did](https://www.loom.com/share/bd4811570f244698afb34b989805584f?sid=2db0a391-da32-4341-a22a-3bf98f6ddf46)
+
 👉 [View the live site](https://antoniov23.github.io/se_project_spots/)
 
 ## 🚀 Features
