@@ -1,21 +1,34 @@
-# Project 3: Spots
+# 🗺️ Spots - Social Image Sharing App
 
-A Image sharing site with interacting buttons.
+A responsive web app that allows users to create, view, and delete image-based posts and edit their profile details. Built with HTML, CSS, and JavaScript.
 
-### Overview
+## 📸 Live Demo
 
-This project is made so all the elements are displayed correctly on popular screen sizes.
+👉 [View the live site](https://antoniov23.github.io/se_project_spots/)
 
-## Tech Stack
+## 🚀 Features
 
-- HTML
-- CSS
-- Responsive Design
+- Add new posts with title and image
+- Edit user profile name and bio
+- View image cards in a modal (popup)
+- Like and delete cards
+- Responsive layout for mobile and desktop
+- Modal form validation
 
-## Deployment
+## 🛠️ Technologies Used
 
-## [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
+- HTML5
+- CSS3 (Flexbox & Grid)
+- JavaScript (ES6+)
+- DOM Manipulation
+- Git & GitHub
+- BEM methodology
 
-## [Link to the GitHub] (https://antoniov23.github.io/se_project_spots/)
+## 🧪 Installation
 
-## Video Link About Project Spots [https://www.loom.com/share/bd4811570f244698afb34b989805584f?sid=386ac2e1-c9ad-46f6-9cdc-5f7292d15389]
+To run the project locally:
+
+```bash
+git clone https://github.com/Antoniov23/se_project_spots.git
+cd se_project_spots
+open index.html
