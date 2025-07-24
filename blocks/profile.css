@@ -69,7 +69,7 @@
   cursor: pointer;
 }
 
-.profile__add-button {
+.profile__add-btn {
   border: none;
   margin-left: auto;
   margin-top: auto;
@@ -87,7 +87,7 @@
   cursor: pointer;
 }
 
-.profile__add-button:hover {
+.profile__add-btn:hover {
   opacity: 80%;
 }
 
